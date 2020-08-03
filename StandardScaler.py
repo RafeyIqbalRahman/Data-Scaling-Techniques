@@ -28,5 +28,5 @@ Xtrans = scaler.fit_transform(X)
 # Convert NumPy array to Pandas DataFrame
 Xtrans = DataFrame(data=Xtrans)
 
-# Show the first 5 rows of the data with imputed values
+# Show the first 5 rows of the data with scaled values
 Xtrans.head()
