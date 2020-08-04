@@ -20,9 +20,6 @@ scaler = RobustScaler()
 X = X.reshape(-1, 1)
 
 # Fit and transform scaler on the dataset
-X = scaler.fit_transform(X)
-
-# Fit and transform scaler on the dataset
 Xtrans = scaler.fit_transform(X)
 
 # Convert NumPy array to Pandas DataFrame
